@@ -2,14 +2,14 @@
   "version": 2,
   "builds": [
     {
-      "src": "./Haitham\u0020Abdullah-Resume.pdf",
+      "src": "Haitham%20Abdullah-Resume.pdf",
       "use": "@vercel/static"
     }
   ],
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "./Haitham\u0020Abdullah-Resume.pdf",
+      "dest": "Haitham%20Abdullah-Resume.pdf",
       "headers": {
         "Content-Type": "application/pdf",
         "Content-Disposition": "inline"
